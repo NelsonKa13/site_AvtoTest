@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>АvtoExpert</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="d-flex  justify-content-between align-content-center py-1 mb-4 border-bottom">
+                <img src="/img/logo.svg" class="img-fluid rounded-top header__logo text-center" alt="logo">
+                <ul class="nav nav-pills d-none d-sm-flex align-content-center active">
+                    <li class="nav-item header__menu-btn"><a href="#servises" class="nav-link">Услуги</a></li>
+                    <li class="nav-item header__menu-btn"><a href="#" class="nav-link ">Стоимость</a></li>
+                    <li class="nav-item header__menu-btn"><a href="#carouselRewiew" class="nav-link">Отзывы</a></li>
+                    <li class="nav-item header__menu-btn"><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="call"><a href="tel: +79222558283" class="nav-link"><img class="img-call"
+                            src="/img/phone-call-icon.svg" alt="call"></a></div>
+            </div>
+
+        </div>
+
+    </header>
+    <main class="container flex-column justify-content-center">
+        <h1 class="fs-3 header__h1">Автоподбор от профессионалов</h1>
+        <div class="main__declaration">
+            Поможем подобрать наилучшее предложение на рынке с гарантией юридической чистоты и технического состояния
+        </div>
+        <div class="main__decloraion-list row flex-column justify-content-center">
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img src="/img/car-check1.svg"
+                    alt="class-item" class="list-logo col-2">
+                <div class="decloration-descriptopn"></div>Осмотр
+                автомобиля по десяткам параметров
+            </div>
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img src="/img/g-car-key.svg"
+                    alt="class-item" class="list-logo">
+                <div class="decloration-descriptopn">Подбор автомобиля под ключ</div>
+            </div>
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img src="/img/g-rub-icon.svg"
+                    alt="class-item" class="list-logo">
+                <div class="decloration-descriptopn">Аргументированное снижение цены автомобиля</div>
+            </div>
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img src="/img/g-tractor2.svg"
+                    alt="class-item" class="list-logo">
+                <div class="decloration-descriptopn">Все виды технических средств: мотоциклы, легковые, грузовые,
+                    спецтехника</div>
+            </div>
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img
+                    src="/img/g-investigation.svg" alt="class-item" class="list-logo">
+                <div class="decloration-descriptopn">Проверка на юридическую чистоту</div>
+            </div>
+            <div class="main__decloration-item col-lg-10 col-md-8 col-sm-12 col-xs-12"><img src="/img/g-law.svg"
+                    alt="class-item" class="list-logo">
+                <div class="decloration-descriptopn">Юридическое сопровождение. Оформление договора купли-продажи</div>
+            </div>
+
+        </div>
+    </main>
+
+    <h2 class="service__header container"> Услуги и стоимость</h2>
+    <section class="service__cost __container __border_for_block container">
+
+        <div class="service__cost_elem __border_for_block">
+            <h3 id="servises" class="main__cost_head">Выездная разовая диагностика</h3>
+            <div class="main__cost_description">
+                <ul class="decriptionservice__cost_list">
+                    <li class="decriptionservice__cost_list_item">✅ Проверка юридической чистоты 500₽</li>
+                    <li class="decriptionservice__cost_list_item">✅ Проверка ЛКП От 1000₽</li>
+                    <li class="decriptionservice__cost_list_item">✅ Компьютерная диагностика От 1000₽</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="service__cost_elem __border_for_block container">
+            <h3 class="main__cost_head">Комплексная диагностика от 2500₽:</h3>
+            <div class="main__cost_description container">
+                <ul class="decriptionservice__cost_list">
+                    <li class="decriptionservice__cost_list_item">✅ Осмотр автомобиля без подъемника</li>
+                    <li class="decriptionservice__cost_list_item">✅ Проверка ЛКП</li>
+                    <li class="decriptionservice__cost_list_item">✅ Диагностика сканером</li>
+                    <li class="decriptionservice__cost_list_item">✅ Осмотр салона</li>
+                    <li class="decriptionservice__cost_list_item">✅ Осмотр подкапотного пространства на наличие
+                        течей/повреждений двс, навесного оборудования</li>
+                    <li class="decriptionservice__cost_list_item">✅ Проверка документов (сверка с вин номером кузова,
+                        двс)
+                    </li>
+                    <li class="decriptionservice__cost_list_item">✅ Тест драйв (выявляем наличие стуков-шумов в
+                        подвеске,
+                        работа коробки передач, рулевая рейка)</li>
+                    <li class="decriptionservice__cost_list_item">✅ Осмотр остекления кузова</li>
+                    <li class="decriptionservice__cost_list_item">✅ Проверка автомобиля на юридическую чистоту</li>
+                    <li class="decriptionservice__cost_list_item">✅ Предоставляем полный фото видео отчет по автомобилю
+                    </li>
+                    <li class="decriptionservice__cost_list_item">✅ Высылаем результаты диагностики автомобиля по
+                        электрической части, в формате PDF</li>
+                    <li class="decriptionservice__cost_list_item">✅ Предоставляем информацию по юридической части
+                        собственника и автомобиля</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="service__cost_elem __border_for_block">
+            <h3 class="main__cost_head">Эксперт на день: От 8000₽</h3>
+            <div class="main__cost_description container">
+                <div class="main__cost_description">
+                    <ul class="decriptionservice__cost_list">
+                        <li class="decriptionservice__cost_list_item">✅ Сопровождение клиента в течение 8 часового
+                            рабочего
+                            дня</li>
+                        <li class="decriptionservice__cost_list_item">✅ Передвижение на автомобиле эксперта или клиента
+                            - на
+                            выбор</li>
+                        <li class="decriptionservice__cost_list_item">✅ Комплексная диагностика</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="main__cost_head">Подбор авто под ключ:</h3>
+            <div class="main__cost_description">
+                <ul class="decriptionservice__cost_list">
+                    <li class="decriptionservice__cost_list_item">✅ От 20.000₽ - легковой</li>
+                    <li class="decriptionservice__cost_list_item">✅ От 25.000₽ - кроссовер</li>
+                    <li class="decriptionservice__cost_list_item">✅ От 30.000₽ - премиум</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="examples container">
+        <h2 class="service__header">Наша работа</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade col-lg-8 col-md-8 col-sm-12 col-xs-12"
+            data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="/img/examp/1.jpeg" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/2.jpeg" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/3.jpeg" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/4.png" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/5.png" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/6.png" class="d-block w-100" alt="example">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/examp/7.png" class="d-block w-100" alt="example">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </section>
+    <section class="reviews container">
+        <h2 class="service__header">Отзывы клиентов</h2>
+        <div id="carouselRewiew" class="carousel slide carousel-fade col-lg-8 col-md-8 col-sm-12 col-xs-12"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="reviews__item ">
+                        Десятки отзывов с самым высоким рейтингом на <a
+                            href="https://www.avito.ru/nizhnevartovsk/predlozheniya_uslug/avtopodbor_2247031347?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller">
+                            <strong>Avito</strong></a>
+                        и <a href="https://instagram.com/avto_test_team"><strong>Instagram*</strong></a>
+                        <div></div>
+                        <img src="/img/reviwes/rev1.png" alt="" class="d-block w-100 example-screen">
+                        <p class="forbidden">*признана экстремистской организацией, её деятельность в России запрещена
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/reviwes/1.png" alt="" class="example-screen d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/reviwes/2.png" alt="" class="example-screen d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/reviwes/3.png" alt="" class="example-screen d-block w-100">
+                </div>
+                <div class="carousel-item ">
+                    <img src="/img/reviwes/4.png" alt="" class="example-screen d-block w-100">
+                </div>
+                <div class="carousel-item ">
+                    <img src="/img/reviwes/5.png" alt="" class="example-screen d-block w-100">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRewiew" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselRewiew" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+
+    </section>
+    <footer id="footer">
+        <div class="container flex-md-wrap">
+            <div class="footer__info">
+                <div class="footer__logo">
+                    <img src="/img/logo.svg" class="img-fluid header__logo" alt="logo">
+                </div>
+                <div class="footer__contacts">
+                    <a href="tel: +79222558283" class="nav-link"> Позвонить: +7(922)-255-82-83
+                </div>
+            </div>
+            <div id="contacts" class="footer__contacts">
+                Контакты:
+                <div class="footer__ico">
+                    <a href="https://www.avito.ru/nizhnevartovsk/predlozheniya_uslug/avtopodbor_2247031347"
+                        target="_blank"><img class="img-ico" src="/img/ico/avito1.png" alt="Avito"></a>
+                </div>
+                <div class="footer__ico">
+                    <a href="instagram.com/avto_test_team" target="_blank"><img class="img-ico" src="/img/ico/in1.png"
+                            alt="instagram"></a>
+                </div>
+                <div class="footer__ico">
+                    <a href="https://t.me/avto_test_team" target="_blank"><img class="img-ico" src="/img/ico/t1.png"
+                            alt="telegram"></a>
+                </div>
+                <div class="footer__ico">
+                    <a href="https://wa.clck.bar/79222558283"><img class="img-ico" src="/img/ico/w1.png"
+                            alt="whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
